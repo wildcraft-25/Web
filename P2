@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>5th C Sec Timetable</title>
+</head>
+<body>
+<h1>Time Table</h1>
+<center>
+<table border="1" cellpadding="10">
+<tr bgcolor="pink">
+<th>Day / Time</th>
+<th>8:00 to 9:00</th>
+<th>9:00 to 10:00</th>
+<th>10:00 to 10:30</th>
+<th>10:30 to 11:30</th>
+<th>11:30 to 12:30</th>
+<th>12:30 to 1:30</th>
+<th>1:30 to 2:30</th>
+<th>2:30 to 3:30</th>
+<th>3:30 to 4:30</th>
+</tr>
+<tr>
+<th bgcolor="green">Mon</th>
+<td>SE</td>
+<td>RM</td>
+<td rowspan="6" bgcolor="blue">Break</td>
+<td>SE</td>
+<td>RM</td>
+<td rowspan="6" bgcolor="blue">Lunch</td>
+<td>EVS</td>
+<td>CN</td>
+<td>RC</td>
+</tr>
+<tr>
+<th bgcolor="green">Tue</th>
+<td>CN</td>
+<td>AL</td>
+<td>TOC</td>
+<td>PRA</td>
+<td>Yoga</td>
+<td>RC</td>
+<td>Yoga</td>
+</tr>
+<tr>
+<th bgcolor="green">Wed</th>
+<td>CN</td>
+<td>AI</td>
+<td>TOC</td>
+<td>RM</td>
+<td colspan="2" bgcolor="lavender">AT-CN / A2 = CDB</td>
+<td>RC</td>
+</tr>
+<tr>
+<th bgcolor="green">Thu</th>
+<td>DC</td>
+<td>AI</td>
+<td>RM</td>
+<td>SE</td>
+<td colspan="2" bgcolor="lavender">AT-CN / A2 = CDB</td>
+<td>RC</td>
+</tr>
+<tr>
+<th bgcolor="green">Fri</th>
+<td>DC</td>
+<td>AI</td>
+<td>RM</td>
+<td>SE</td>
+<td colspan="3">Department Activities</td>
+</tr>
+<tr>
+<th bgcolor="green">Sat</th>
+<td>SE</td>
+<td>CN</td>
+<td>TOC</td>
+<td>Tutorial</td>
+<td></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
