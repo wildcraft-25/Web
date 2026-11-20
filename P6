@@ -1,0 +1,489 @@
+EXP 1
+
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+
+    <marquee>Basic HTML Tags</marquee>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>This is a paragraph.</p>
+
+    <hr>
+
+    Hello Students!<br>
+    Welcome to HTML.
+
+    <blockquote>
+        HTML is used to create web pages.
+    </blockquote>
+
+    <pre>
+    Welcome to Web Technology Lab
+    Basic HTML Program
+    </pre>
+
+    <b>Bold Text</b><br>
+    <u>Underlined Text</u><br>
+    H<sub>2</sub>O<br>
+    X<sup>2</sup>
+
+</body>
+</html>
+
+
+
+EXP 2
+
+<html>
+<head>
+<title>Time Table</title>
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+}
+th {
+    background: lightgreen;
+}
+tr:nth-child(even) {
+    background: #eeeeee;
+}
+.lab {
+    background: lightblue;
+}
+.elective {
+    background: lightpink;
+}
+.break {
+    background: lightyellow;
+}
+.lunch {
+    background: lightgreen;
+}
+tfoot {
+    background: lightgray;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">TIME TABLE</h2>
+
+<table>
+<thead>
+<tr>
+    <th>Day / Time</th>
+    <th>08-09</th>
+    <th>09-10</th>
+    <th>10-10:30</th>
+    <th>10:30-11:30</th>
+    <th>11:30-12:30</th>
+    <th>12:30-1:30</th>
+    <th>1:30-2:30</th>
+    <th>2:30-3:30</th>
+    <th>3:30-4:30</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <th>Monday</th>
+    <td>SE</td>
+    <td>RM</td>
+    <td rowspan="6" class="break">BREAK</td>
+    <td>EVS</td>
+    <td>CN</td>
+    <td rowspan="6" class="lunch">LUNCH</td>
+    <td>TOC</td>
+    <td>AI</td>
+    <td>MENTORING</td>
+</tr>
+
+<tr>
+    <th>Tuesday</th>
+    <td>CN</td>
+    <td>AI</td>
+    <td>TOC</td>
+    <td>PRA</td>
+    <td>YOGA</td>
+    <td>RC</td>
+    <td>YOGA</td>
+</tr>
+
+<tr>
+    <th>Wednesday</th>
+    <td>CN</td>
+    <td>SE</td>
+    <td colspan="2" class="lab">A1-WEB, A2-CN</td>
+    <td colspan="2" class="elective">MINI PROJECT</td>
+    <td>LIBRARY</td>
+</tr>
+
+<tr>
+    <th>Thursday</th>
+    <td>EVS</td>
+    <td>RM</td>
+    <td>AI</td>
+    <td>TOC</td>
+    <td colspan="2" class="lab">A3-WEB, A1-CN</td>
+    <td>LIBRARY</td>
+</tr>
+
+<tr>
+    <th>Friday</th>
+    <td>AI</td>
+    <td>SE</td>
+    <td>RM</td>
+    <td>CN</td>
+    <td colspan="3" class="elective">DEPARTMENT ACTIVITIES</td>
+</tr>
+
+<tr>
+    <th>Saturday</th>
+    <td>RM</td>
+    <td>SE</td>
+    <td>TOC</td>
+    <td>YOGA</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+    <td colspan="9">50% Remedial Class &nbsp;&nbsp; PSA - Placement Sessions</td>
+</tr>
+</tfoot>
+</table>
+
+</body>
+</html>
+
+
+
+EXP3
+
+<html>
+<head>
+    <title>External CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Welcome to HTML</h2>
+    <h3>External Style Sheet</h3>
+
+    <hr>
+
+    <p>This is a paragraph with CSS styling.</p>
+
+    <div class="box">
+        This is a division tag.
+    </div>
+
+    <p>This is a <span>special text</span>.</p>
+
+    <time>18 November 2026</time>
+
+    <br><br>
+
+    <img src="image.jpg" alt="Sample Image">
+
+    <p id="special">This is an ID selector.</p>
+
+</body>
+</html>
+
+#CSS
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+p {
+    font-size: 18px;
+    color: green;
+}
+
+div {
+    background-color: lightyellow;
+    padding: 15px;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+time {
+    color: purple;
+    font-style: italic;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+}
+
+.box {
+    border: 2px solid blue;
+}
+
+#special {
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+
+EXP 4
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+<table>
+<tr>
+    <td>Name:</td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td>USN:</td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td>Email:</td>
+    <td><input type="email"></td>
+</tr>
+<tr>
+    <td>Phone:</td>
+    <td><input type="number"></td>
+</tr>
+<tr>
+    <td>Semester:</td>
+    <td>
+        <input type="radio" name="sem"> 5
+        <input type="radio" name="sem"> 6
+        <input type="radio" name="sem"> 7
+        <input type="radio" name="sem"> 8
+    </td>
+</tr>
+<tr>
+    <td>Section:</td>
+    <td>
+        <input type="radio" name="sec"> A
+        <input type="radio" name="sec"> B
+    </td>
+</tr>
+<tr>
+    <td>DOB:</td>
+    <td><input type="date"></td>
+</tr>
+<tr>
+    <td>Gender:</td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+<tr>
+    <td>Hobbies:</td>
+    <td>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
+
+#CSS
+
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+table {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+td {
+    padding: 8px;
+}
+
+input {
+    padding: 5px;
+}
+
+EXP 5
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Newspaper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Daily News</h1>
+    <p>Your Daily Newspaper</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Politics</a>
+    <a href="#">Sports</a>
+</nav>
+
+<main>
+<section>
+    <article>
+        <h2>Latest News</h2>
+        <p>India is developing in science and technology.</p>
+
+        <figure>
+            <img src="MODI.webp" width="200">
+            <figcaption>Prime Minister of India</figcaption>
+        </figure>
+    </article>
+</section>
+
+<aside>
+    <h3>Breaking News</h3>
+    <p>Latest updates from India.</p>
+</aside>
+
+<section>
+    <h2>News Table</h2>
+    <table border="1">
+        <tr>
+            <th>Category</th>
+            <th>News</th>
+        </tr>
+        <tr>
+            <td>Sports</td>
+            <td>India wins the match</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>New technology launched</td>
+        </tr>
+    </table>
+</section>
+</main>
+
+<footer>
+    <p>Copyright 2026 Daily News</p>
+</footer>
+
+</body>
+</html>
+
+#CSS
+
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: gray;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+}
+
+article {
+    color: darkblue;
+    font-size: 18px;
+}
+
+aside {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+table {
+    background-color: lightgray;
+    font-size: 16px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
